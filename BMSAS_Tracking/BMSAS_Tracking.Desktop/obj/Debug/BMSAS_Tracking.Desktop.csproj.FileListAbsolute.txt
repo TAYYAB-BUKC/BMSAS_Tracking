@@ -1,0 +1,11 @@
+C:\Users\TEXON WARE\source\repos\BMSAS_Tracking\BMSAS_Tracking\BMSAS_Tracking.Desktop\bin\Debug\BMSAS_Tracking.Desktop.exe.config
+C:\Users\TEXON WARE\source\repos\BMSAS_Tracking\BMSAS_Tracking\BMSAS_Tracking.Desktop\bin\Debug\BMSAS_Tracking.Desktop.exe
+C:\Users\TEXON WARE\source\repos\BMSAS_Tracking\BMSAS_Tracking\BMSAS_Tracking.Desktop\bin\Debug\BMSAS_Tracking.Desktop.pdb
+C:\Users\TEXON WARE\source\repos\BMSAS_Tracking\BMSAS_Tracking\BMSAS_Tracking.Desktop\obj\Debug\BMSAS_Tracking.Desktop.csprojAssemblyReference.cache
+C:\Users\TEXON WARE\source\repos\BMSAS_Tracking\BMSAS_Tracking\BMSAS_Tracking.Desktop\obj\Debug\BMSAS_Tracking.Desktop.LoginForm.resources
+C:\Users\TEXON WARE\source\repos\BMSAS_Tracking\BMSAS_Tracking\BMSAS_Tracking.Desktop\obj\Debug\BMSAS_Tracking.Desktop.MainForm.resources
+C:\Users\TEXON WARE\source\repos\BMSAS_Tracking\BMSAS_Tracking\BMSAS_Tracking.Desktop\obj\Debug\BMSAS_Tracking.Desktop.Properties.Resources.resources
+C:\Users\TEXON WARE\source\repos\BMSAS_Tracking\BMSAS_Tracking\BMSAS_Tracking.Desktop\obj\Debug\BMSAS_Tracking.Desktop.csproj.GenerateResource.cache
+C:\Users\TEXON WARE\source\repos\BMSAS_Tracking\BMSAS_Tracking\BMSAS_Tracking.Desktop\obj\Debug\BMSAS_Tracking.Desktop.csproj.CoreCompileInputs.cache
+C:\Users\TEXON WARE\source\repos\BMSAS_Tracking\BMSAS_Tracking\BMSAS_Tracking.Desktop\obj\Debug\BMSAS_Tracking.Desktop.exe
+C:\Users\TEXON WARE\source\repos\BMSAS_Tracking\BMSAS_Tracking\BMSAS_Tracking.Desktop\obj\Debug\BMSAS_Tracking.Desktop.pdb
