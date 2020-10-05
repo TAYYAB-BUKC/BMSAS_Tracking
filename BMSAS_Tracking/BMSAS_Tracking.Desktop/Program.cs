@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace BMSAS_Tracking.Desktop
@@ -16,7 +15,7 @@ namespace BMSAS_Tracking.Desktop
 		{
 			Application.EnableVisualStyles();
 			Application.SetCompatibleTextRenderingDefault(false);
-			Application.Run(new LoginForm());
+			Application.Run(new MainForm());
 		}
 	}
 }

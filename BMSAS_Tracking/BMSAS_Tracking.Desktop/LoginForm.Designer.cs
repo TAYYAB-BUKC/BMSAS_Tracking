@@ -56,6 +56,7 @@
 			this.Txt_Email.Name = "Txt_Email";
 			this.Txt_Email.Size = new System.Drawing.Size(359, 26);
 			this.Txt_Email.TabIndex = 1;
+			this.Txt_Email.Text = "tayyabdost@gmail.com";
 			// 
 			// Btn_SignIn
 			// 
@@ -93,8 +94,10 @@
 			this.Txt_Password.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.Txt_Password.Location = new System.Drawing.Point(41, 252);
 			this.Txt_Password.Name = "Txt_Password";
+			this.Txt_Password.PasswordChar = '*';
 			this.Txt_Password.Size = new System.Drawing.Size(359, 26);
 			this.Txt_Password.TabIndex = 4;
+			this.Txt_Password.Text = "tayyabdost@gmail.com";
 			// 
 			// Btn_Cancel
 			// 

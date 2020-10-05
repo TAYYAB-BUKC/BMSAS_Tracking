@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30128.74
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BMSAS_Tracking.Desktop", "BMSAS_Tracking.Desktop\BMSAS_Tracking.Desktop.csproj", "{97581156-BFD8-4BB7-AA7B-349757668ACE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MouseKeyboardLibrary", "MouseKeyboardLibrary\MouseKeyboardLibrary.csproj", "{D1BE62D3-D280-4CE3-AB06-274F435E1FEC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,11 +17,15 @@ Global
 		{97581156-BFD8-4BB7-AA7B-349757668ACE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97581156-BFD8-4BB7-AA7B-349757668ACE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97581156-BFD8-4BB7-AA7B-349757668ACE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1BE62D3-D280-4CE3-AB06-274F435E1FEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1BE62D3-D280-4CE3-AB06-274F435E1FEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1BE62D3-D280-4CE3-AB06-274F435E1FEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1BE62D3-D280-4CE3-AB06-274F435E1FEC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {C3FBE249-ED84-4442-AE75-A03ACFB65A4B}
+		SolutionGuid = {F0FD9F25-E11F-4A97-94AE-416A318F1CA3}
 	EndGlobalSection
 EndGlobal
