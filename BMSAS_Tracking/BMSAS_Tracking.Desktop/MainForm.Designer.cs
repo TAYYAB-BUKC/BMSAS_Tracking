@@ -49,7 +49,7 @@
 			this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
 			this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
 			this.curXYLabel = new System.Windows.Forms.Label();
-			this.Btn_OpenForm = new System.Windows.Forms.Button();
+			this.Lbl_Welcome = new System.Windows.Forms.Label();
 			this.groupBox2.SuspendLayout();
 			this.groupBox1.SuspendLayout();
 			this.SuspendLayout();
@@ -66,7 +66,7 @@
 			// 
 			this.label1.AutoSize = true;
 			this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label1.Location = new System.Drawing.Point(502, 7);
+			this.label1.Location = new System.Drawing.Point(502, 697);
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(92, 20);
 			this.label1.TabIndex = 1;
@@ -209,23 +209,22 @@
 			this.curXYLabel.Size = new System.Drawing.Size(0, 13);
 			this.curXYLabel.TabIndex = 0;
 			// 
-			// Btn_OpenForm
+			// Lbl_Welcome
 			// 
-			this.Btn_OpenForm.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.Btn_OpenForm.Location = new System.Drawing.Point(210, 4);
-			this.Btn_OpenForm.Name = "Btn_OpenForm";
-			this.Btn_OpenForm.Size = new System.Drawing.Size(276, 32);
-			this.Btn_OpenForm.TabIndex = 6;
-			this.Btn_OpenForm.Text = "Open Form For API Testing";
-			this.Btn_OpenForm.UseVisualStyleBackColor = true;
-			this.Btn_OpenForm.Click += new System.EventHandler(this.Btn_OpenForm_Click);
+			this.Lbl_Welcome.AutoSize = true;
+			this.Lbl_Welcome.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.Lbl_Welcome.Location = new System.Drawing.Point(399, 19);
+			this.Lbl_Welcome.Name = "Lbl_Welcome";
+			this.Lbl_Welcome.Size = new System.Drawing.Size(75, 20);
+			this.Lbl_Welcome.TabIndex = 6;
+			this.Lbl_Welcome.Text = "Welcome";
 			// 
 			// MainForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(624, 738);
-			this.Controls.Add(this.Btn_OpenForm);
+			this.Controls.Add(this.Lbl_Welcome);
 			this.Controls.Add(this.listView3);
 			this.Controls.Add(this.groupBox2);
 			this.Controls.Add(this.groupBox1);
@@ -266,6 +265,6 @@
 		private System.Windows.Forms.ColumnHeader columnHeader3;
 		private System.Windows.Forms.ColumnHeader columnHeader5;
 		private System.Windows.Forms.Label curXYLabel;
-		private System.Windows.Forms.Button Btn_OpenForm;
+		private System.Windows.Forms.Label Lbl_Welcome;
 	}
 }

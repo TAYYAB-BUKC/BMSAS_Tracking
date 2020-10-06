@@ -1,5 +1,6 @@
 C:\Users\TEXON WARE\source\repos\BMSAS_Tracking\BMSAS_Tracking\MouseKeyboardLibrary\bin\Debug\MouseKeyboardLibrary.dll
 C:\Users\TEXON WARE\source\repos\BMSAS_Tracking\BMSAS_Tracking\MouseKeyboardLibrary\bin\Debug\MouseKeyboardLibrary.pdb
+C:\Users\TEXON WARE\source\repos\BMSAS_Tracking\BMSAS_Tracking\MouseKeyboardLibrary\obj\Debug\MouseKeyboardLibrary.csprojAssemblyReference.cache
 C:\Users\TEXON WARE\source\repos\BMSAS_Tracking\BMSAS_Tracking\MouseKeyboardLibrary\obj\Debug\MouseKeyboardLibrary.csproj.CoreCompileInputs.cache
 C:\Users\TEXON WARE\source\repos\BMSAS_Tracking\BMSAS_Tracking\MouseKeyboardLibrary\obj\Debug\MouseKeyboardLibrary.dll
 C:\Users\TEXON WARE\source\repos\BMSAS_Tracking\BMSAS_Tracking\MouseKeyboardLibrary\obj\Debug\MouseKeyboardLibrary.pdb

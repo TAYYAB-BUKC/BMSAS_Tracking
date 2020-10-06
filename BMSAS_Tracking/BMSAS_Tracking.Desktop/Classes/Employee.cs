@@ -7,11 +7,11 @@ namespace BMSAS_Tracking.Desktop
 {
     public class Employee
     {
-        public int EmployeeID { get; set; }
-
+        public int Id { get; set; }
         public string Name { get; set; }
-        public Nullable<int> Age { get; set; }
-        public string Position { get; set; }
-        public Nullable<int> Salary { get; set; }
+        public string Email { get; set; }
+        public string Password { get; set; }
     }
+
+
 }

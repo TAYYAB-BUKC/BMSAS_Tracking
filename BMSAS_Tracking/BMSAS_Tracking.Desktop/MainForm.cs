@@ -1,4 +1,5 @@
-﻿using MouseKeyboardLibrary;
+﻿using BMSAS_Tracking.Desktop.Classes;
+using MouseKeyboardLibrary;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -26,6 +27,8 @@ namespace BMSAS_Tracking.Desktop
 		{
 			InitializeComponent();
 
+            Lbl_Welcome.Text = $"Welcome { LoggedInEmployee.employee.Name }";
+
             screenTimer = new Timer() {
 				Enabled = true,
                 Interval = GetInterval()
@@ -50,7 +53,6 @@ namespace BMSAS_Tracking.Desktop
             };
 
             activityTimer.Tick += new EventHandler(SaveActivityDetails);
-
 			//using (WebClient webClient = new WebClient())
 			//{
 			//	webClient.BaseAddress = "https://localhost:44308/api/Employee";
@@ -198,7 +200,7 @@ namespace BMSAS_Tracking.Desktop
             //MessageBox.Show("SaveActivityDetails: \nKeyBoard: " + mainKeyboardCounter + "\nMouse: " + mainMouseCounter);
             if (mainKeyboardCounter > 0)
 			{
-                richTextBox1.Text += "KeyBoard Activity: " + ((mainKeyboardCounter * 100) / 600) + "%";
+                richTextBox1.Text += "KeyBoard Activity: " + ((mainKeyboardCounter * 100) / 120) + "%";
             }
 			else
 			{
@@ -206,7 +208,7 @@ namespace BMSAS_Tracking.Desktop
             }
             if (mainMouseCounter > 0)
             {
-                richTextBox1.Text += "Mouse Activity: " + ((mainMouseCounter * 100) / 600) + "%";
+                richTextBox1.Text += "Mouse Activity: " + ((mainMouseCounter * 100) / 120) + "%";
             }
             else
             {
