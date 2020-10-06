@@ -1,6 +1,10 @@
 ﻿using MouseKeyboardLibrary;
+using Newtonsoft.Json;
 using System;
+using System.Collections.Generic;
 using System.Drawing;
+using System.Net;
+using System.Text;
 using System.Windows.Forms;
 
 namespace BMSAS_Tracking.Desktop
@@ -47,9 +51,40 @@ namespace BMSAS_Tracking.Desktop
 
             activityTimer.Tick += new EventHandler(SaveActivityDetails);
 
-        }
+			using (WebClient webClient = new WebClient())
+			{
+				webClient.BaseAddress = "https://localhost:44308/api/Employee";
+				//Uri uri = new Uri("https://localhost:44308/api/Employee");
+				var json = webClient.DownloadString("https://localhost:44308/api/Employee");
+				var employees = JsonConvert.DeserializeObject<List<Employee>>(json);
+				foreach (var emp in employees)
+				{
+					MessageBox.Show($" { emp.Name } { emp.Position } { emp.Salary }");
+				}
+			}
 
-		private int GetInterval()
+			using (WebClient webClient = new WebClient())
+			{
+				webClient.BaseAddress = "https://localhost:44308/api/Employee";
+				//Uri uri = new Uri("https://localhost:44308/api/Employee");
+
+				var newEmployee = new Employee
+				{
+					Name = "Nabeel",
+					Age = 21,
+					Position = "WordPress Developer",
+					Salary = 15000
+				};
+				string inputJson = JsonConvert.SerializeObject(newEmployee);
+				webClient.Headers["Content-type"] = "application/json";
+				webClient.Encoding = Encoding.UTF8;
+				string json = webClient.UploadString("Employee", inputJson);
+                MessageBox.Show(json);
+			}
+
+		}
+
+        private int GetInterval()
 		{
             Random random = new Random();
             int next = random.Next(1, 9);
