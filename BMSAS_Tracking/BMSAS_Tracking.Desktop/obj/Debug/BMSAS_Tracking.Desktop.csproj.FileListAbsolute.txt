@@ -14,3 +14,4 @@ C:\Users\TEXON WARE\source\repos\BMSAS_Tracking\BMSAS_Tracking\BMSAS_Tracking.De
 C:\Users\TEXON WARE\source\repos\BMSAS_Tracking\BMSAS_Tracking\BMSAS_Tracking.Desktop\obj\Debug\BMSAS_Tracking.Desktop.pdb
 C:\Users\TEXON WARE\source\repos\BMSAS_Tracking\BMSAS_Tracking\BMSAS_Tracking.Desktop\bin\Debug\Newtonsoft.Json.dll
 C:\Users\TEXON WARE\source\repos\BMSAS_Tracking\BMSAS_Tracking\BMSAS_Tracking.Desktop\bin\Debug\Newtonsoft.Json.xml
+C:\Users\TEXON WARE\source\repos\BMSAS_Tracking\BMSAS_Tracking\BMSAS_Tracking.Desktop\obj\Debug\BMSAS_Tracking.Desktop.Comics.resources
