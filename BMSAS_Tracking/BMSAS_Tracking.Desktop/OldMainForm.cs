@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace BMSAS_Tracking.Desktop
 {
-	public partial class MainForm : Form
+	public partial class OldMainForm : Form
 	{
 		private int counter = 0;
 		private Timer screenTimer;
@@ -23,11 +23,12 @@ namespace BMSAS_Tracking.Desktop
         private int mainKeyboardCounter = 0;
 		private int mainMouseCounter = 0;
         
-        public MainForm()
+        public OldMainForm()
 		{
 			InitializeComponent();
 
-            Lbl_Welcome.Text = $"Welcome { LoggedInEmployee.employee.Name }";
+         
+           // Lbl_Welcome.Text = $"Welcome { LoggedInEmployee.employee.Name }";
 
             screenTimer = new Timer() {
 				Enabled = true,

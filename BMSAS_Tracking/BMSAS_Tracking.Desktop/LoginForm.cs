@@ -45,8 +45,10 @@ namespace BMSAS_Tracking.Desktop
 					//open Main Window where after every 5 seconds screenshot is captured and saved on Desktop
 					LoggedInEmployee.employee = response;
 					this.Hide();
-					MainForm mainForm = new MainForm();
-					mainForm.Show();
+					//OldMainForm mainForm = new OldMainForm();
+					//mainForm.Show();
+					Dashboard dashboard= new Dashboard();
+					dashboard.Show();
 				}
 			}
 		}

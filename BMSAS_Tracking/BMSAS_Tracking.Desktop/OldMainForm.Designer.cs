@@ -1,6 +1,6 @@
 ﻿namespace BMSAS_Tracking.Desktop
 {
-	partial class MainForm
+	partial class OldMainForm
 	{
 		/// <summary>
 		/// Required designer variable.

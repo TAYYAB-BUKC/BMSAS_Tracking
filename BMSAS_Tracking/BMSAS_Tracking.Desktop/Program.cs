@@ -15,7 +15,7 @@ namespace BMSAS_Tracking.Desktop
 		{
 			Application.EnableVisualStyles();
 			Application.SetCompatibleTextRenderingDefault(false);
-			Application.Run(new LoginForm());
+			Application.Run(new Dashboard());
 		}
 	}
 }
